@@ -1,6 +1,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 
+
 const Login = () => {
     const navigate = useNavigate();
     const handleSubmit = (e) => {
@@ -9,6 +10,7 @@ const Login = () => {
     }
   return (
     <React.Fragment>
+       
         <div className='w-screen h-screen bg-[#fbfbfb]'>
         <div className="flex justify-between align-center">    
             <div>
