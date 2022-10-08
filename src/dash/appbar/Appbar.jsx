@@ -45,7 +45,7 @@ const Appbar = () => {
                 <span class="sr-only">Search</span>
               </button>
             </div>
-          </div>
+          </div> 
 
           <h1 className=" not-italic font-[400px] text-[16px] leading-[18.75px] text-[#213F7D] underline pr-[50.16px]">
             DOCS
