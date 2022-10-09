@@ -2,7 +2,7 @@ import React from "react";
 
 const Appbar = () => {
   return (
-    <div className="bg-gray-100 h-[100px]">
+    <div className="bg-white h-[100px]">
       <div className="md:px-[100px] sm:px-[100px] pt-5">
         <div className="flex items-center">
           {/* LOGO */}
@@ -45,18 +45,30 @@ const Appbar = () => {
                 <span class="sr-only">Search</span>
               </button>
             </div>
-          </div> 
+          </div>
 
           <h1 className=" not-italic font-[400px] text-[16px] leading-[18.75px] text-[#213F7D] underline pr-[50.16px]">
             DOCS
           </h1>
 
-          <img className="pr-[33.16px] cursor-pointer" src="/Vector.png" alt="" />
-          <img className="rounded-3xl mr-2 cursor-pointer" src="/image 4.png" alt="" />
+          <img
+            className="pr-[33.16px] cursor-pointer"
+            src="/Vector.png"
+            alt=""
+          />
+          <img
+            className="rounded-3xl mr-2 cursor-pointer"
+            src="/image 4.png"
+            alt=""
+          />
 
           <div className="flex items-center">
             <h1 className="pr-[10.33px]">Adedeji</h1>
-            <img className="w-[7.34px] h-[4.15px] cursor-pointer" src="/down.png" alt="" />
+            <img
+              className="w-[7.34px] h-[4.15px] cursor-pointer"
+              src="/down.png"
+              alt=""
+            />
           </div>
         </div>
       </div>
